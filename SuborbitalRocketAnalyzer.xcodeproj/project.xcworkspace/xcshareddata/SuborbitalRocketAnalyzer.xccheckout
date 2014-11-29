@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A3D2C6BE-38E4-4404-BBDF-C2D9742C71F5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SuborbitalRocketAnalyzer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>00C9E552F99189004461E750BDBD2D635679E1E9</key>
+		<string>https://github.com/john146/SuborbitalRocketAnalyzer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SuborbitalRocketAnalyzer.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>00C9E552F99189004461E750BDBD2D635679E1E9</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/john146/SuborbitalRocketAnalyzer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>00C9E552F99189004461E750BDBD2D635679E1E9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>00C9E552F99189004461E750BDBD2D635679E1E9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SuborbitalRocketAnalyzer</string>
+		</dict>
+	</array>
+</dict>
+</plist>
