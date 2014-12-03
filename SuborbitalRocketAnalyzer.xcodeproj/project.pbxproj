@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5229F2B61A2C185100EE24C0 /* SuborbitalStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5229F2B51A2C185100EE24C0 /* SuborbitalStage.swift */; };
+		5229F2B81A2C18AF00EE24C0 /* SuborbitalStageTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5229F2B71A2C18AF00EE24C0 /* SuborbitalStageTest.swift */; };
+		5229F31D1A2D56A700EE24C0 /* SuborbitalStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5229F2B51A2C185100EE24C0 /* SuborbitalStage.swift */; };
 		52E609721A2A79A400E7CA3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E609711A2A79A400E7CA3E /* AppDelegate.swift */; };
 		52E609741A2A79A400E7CA3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E609731A2A79A400E7CA3E /* ViewController.swift */; };
 		52E609771A2A79A400E7CA3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E609751A2A79A400E7CA3E /* Main.storyboard */; };
@@ -26,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5229F2B51A2C185100EE24C0 /* SuborbitalStage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuborbitalStage.swift; sourceTree = "<group>"; };
+		5229F2B71A2C18AF00EE24C0 /* SuborbitalStageTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuborbitalStageTest.swift; sourceTree = "<group>"; };
 		52E6096C1A2A79A400E7CA3E /* SuborbitalRocketAnalyzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuborbitalRocketAnalyzer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E609701A2A79A400E7CA3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52E609711A2A79A400E7CA3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +88,7 @@
 				52E609781A2A79A400E7CA3E /* Images.xcassets */,
 				52E6097A1A2A79A400E7CA3E /* LaunchScreen.xib */,
 				52E6096F1A2A79A400E7CA3E /* Supporting Files */,
+				5229F2B51A2C185100EE24C0 /* SuborbitalStage.swift */,
 			);
 			path = SuborbitalRocketAnalyzer;
 			sourceTree = "<group>";
@@ -100,6 +106,7 @@
 			children = (
 				52E609871A2A79A400E7CA3E /* SuborbitalRocketAnalyzerTests.swift */,
 				52E609851A2A79A400E7CA3E /* Supporting Files */,
+				5229F2B71A2C18AF00EE24C0 /* SuborbitalStageTest.swift */,
 			);
 			path = SuborbitalRocketAnalyzerTests;
 			sourceTree = "<group>";
@@ -161,6 +168,7 @@
 				TargetAttributes = {
 					52E6096B1A2A79A400E7CA3E = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 2EVR2UB76E;
 					};
 					52E609801A2A79A400E7CA3E = {
 						CreatedOnToolsVersion = 6.1;
@@ -214,6 +222,7 @@
 			files = (
 				52E609741A2A79A400E7CA3E /* ViewController.swift in Sources */,
 				52E609721A2A79A400E7CA3E /* AppDelegate.swift in Sources */,
+				5229F2B61A2C185100EE24C0 /* SuborbitalStage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +230,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5229F2B81A2C18AF00EE24C0 /* SuborbitalStageTest.swift in Sources */,
+				5229F31D1A2D56A700EE24C0 /* SuborbitalStage.swift in Sources */,
 				52E609881A2A79A400E7CA3E /* SuborbitalRocketAnalyzerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,9 +349,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SuborbitalRocketAnalyzer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -348,9 +362,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SuborbitalRocketAnalyzer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -407,6 +424,7 @@
 				52E6098D1A2A79A400E7CA3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52E6098E1A2A79A400E7CA3E /* Build configuration list for PBXNativeTarget "SuborbitalRocketAnalyzerTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +433,7 @@
 				52E609901A2A79A400E7CA3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

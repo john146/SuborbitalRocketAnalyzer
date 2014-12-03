@@ -15,7 +15,7 @@
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="UIControl">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -133,6 +133,7 @@
                             <slider opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="80" minValue="1" maxValue="99" translatesAutoresizingMaskIntoConstraints="NO" id="C0w-2y-v1v">
                                 <rect key="frame" x="145" y="248" width="441" height="31"/>
                                 <connections>
+                                    <action selector="backgroundTab:" destination="BYZ-38-t0r" eventType="valueChanged" id="v94-4X-PqP"/>
                                     <action selector="propellantRatioChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="FgU-Ph-xGL"/>
                                 </connections>
                             </slider>
@@ -243,6 +244,9 @@
                             <constraint firstItem="iq3-65-zTj" firstAttribute="leading" secondItem="J82-4O-ynX" secondAttribute="trailing" constant="8" symbolic="YES" id="yPW-78-88L"/>
                             <constraint firstItem="FMd-V8-PSV" firstAttribute="top" secondItem="C0w-2y-v1v" secondAttribute="bottom" constant="8" symbolic="YES" id="zwW-4j-dWA"/>
                         </constraints>
+                        <connections>
+                            <action selector="backgroundTab:" destination="BYZ-38-t0r" eventType="valueChanged" id="Nlf-ai-Xld"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="aeroLossesInput" destination="rvP-Dn-2EH" id="bpT-4t-n40"/>
@@ -252,6 +256,7 @@
                         <outlet property="payloadInput" destination="sfh-7f-0Ga" id="sRV-zd-gWb"/>
                         <outlet property="payloadMass" destination="ZwL-hl-Cst" id="lXg-7I-YIP"/>
                         <outlet property="propellantMass" destination="gHc-Nr-xS9" id="VXZ-IN-UXR"/>
+                        <outlet property="propellantRatioInput" destination="C0w-2y-v1v" id="RYo-pc-kT3"/>
                         <outlet property="propellantRatioLabel" destination="FMd-V8-PSV" id="cia-GY-p1x"/>
                         <outlet property="structuralMass" destination="Sfj-L0-sTP" id="P9B-kr-R2G"/>
                         <outlet property="targetAltitudeInput" destination="XGQ-rk-tAH" id="5ku-xg-ogi"/>
